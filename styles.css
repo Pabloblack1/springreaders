@@ -1,0 +1,108 @@
+/*Global styles*/
+body{
+    font-family: fantasy;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header{
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer{
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/*spec reader tiles*/
+.novel-tile{
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.novel-tile img{
+    width: 30%;
+    height: 0;
+}
+
+/*spec reader description*/
+.novel-info{
+    text-align: center;
+    font-family:fantasy;
+    font-style:italic;
+}
+
+/*spec reader chapters*/
+.chapters{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/*Footer Navigation*/
+footer nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+footer nav ul li{
+    display: inline;
+    margin: 0 10px;
+}
+
+footer nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+/*Light mode styles*/
+body.light-mode{
+    background-color: #fff;
+    color: #333;
+}
+
+footer.light-mode{
+    background-color: #ccc;
+}
+
+/*Dark mode styles*/
+body.dark-mode{
+    background-color: #333;
+    color: #fff;
+}
+
+footer.dark-mode{
+    background-color: #444;
+}
+
+/*novel*/
+.chapter1{
+    font-family: cursive;
+    font-style: oblique;
+    font-weight: bolder;
+    margin: 0;
+    padding: 0;
+}
+
+.chapter2{
+    font-family: cursive;
+    font-weight: bolder;
+    margin: 0;
+    padding: 0;
+}
